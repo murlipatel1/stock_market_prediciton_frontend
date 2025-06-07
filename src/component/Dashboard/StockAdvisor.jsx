@@ -21,7 +21,7 @@ const StockAdvisor = () => {
   useEffect(() => {
     const fetchIndianStocks = async () => {
       try {
-        const response = await axios.get("https://stock-prediction-flask-1psb.onrender.com//api/stocks", { timeout: 5000 });
+        const response = await axios.get("https://stock-prediction-flask-1psb.onrender.com/api/stocks", { timeout: 5000 });
         
         // The response now comes with formatted stock data
         const stocksWithModels = response.data.stocks.map(stock => ({
@@ -73,7 +73,7 @@ const StockAdvisor = () => {
 
     try {
       // Make API request to the LSTM prediction service
-      const response = await axios.post("https://stock-prediction-flask-1psb.onrender.com//api/analyze/stock", {
+      const response = await axios.post("https://stock-prediction-flask-1psb.onrender.com/api/analyze/stock", {
         symbol: selectedStock,
         days: analysisParams.days,
         model_type: analysisParams.modelType,
@@ -91,7 +91,7 @@ const StockAdvisor = () => {
       
       // Try to get individual prediction if the analyze endpoint fails
       try {
-        const predictionResponse = await axios.get(`https://stock-prediction-flask-1psb.onrender.com//api/stocks/predict/${selectedStock}`);
+        const predictionResponse = await axios.get(`https://stock-prediction-flask-1psb.onrender.com/api/stocks/predict/${selectedStock}`);
         const predictionData = predictionResponse.data;
         
         // Format the prediction data to match the expected structure

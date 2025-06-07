@@ -18,7 +18,7 @@ const StockPredictions = () => {
     setError("");
     
     try {
-      const response = await axios.get("https://stock-prediction-flask-1psb.onrender.com//api/stocks/predictions");
+      const response = await axios.get("https://stock-prediction-flask-1psb.onrender.com/api/stocks/predictions");
       setPredictions(response.data.predictions);
     } catch (err) {
       console.error("Error fetching predictions:", err);
