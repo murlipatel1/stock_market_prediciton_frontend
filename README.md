@@ -2,11 +2,8 @@
 
 ![image](https://user-images.githubusercontent.com/87543808/215322182-e7318b0a-fc01-4147-9f06-021cdd291c8e.png)
 
-## Team Name: _ByteHogs_
 
 ## Problem Statement
-
-**_Category: FinTech_**
 
 A business is facing the challenge of effectively managing its stock portfolio in order to maximize profits while minimizing costs. This includes accurately forecasting demand for products, efficiently allocating resources to stock inventory, and effectively managing the supply chain to minimize disruptions and delays. Additionally, the business must constantly monitor and adjust their stock portfolio in response to changes in market conditions and consumer preferences.
 
