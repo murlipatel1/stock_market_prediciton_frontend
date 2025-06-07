@@ -42,7 +42,7 @@ export default function SellStockCompoNew() {
     const authToken = localStorage.getItem('token');
     if (authToken) {
       try {
-        const response = await axios.get('http://localhost:5000/api/auth/getamount', {
+        const response = await axios.get('https://stock-prediction-backend-4vxn.onrender.com/api/auth/getamount', {
           headers: {
             'Content-Type': 'application/json',
             'auth-token': authToken
@@ -62,7 +62,7 @@ export default function SellStockCompoNew() {
     const authToken = localStorage.getItem('token');
     if (authToken) {
       try {
-        const response = await axios.get('http://localhost:5000/api/stocks/fetchallstocks', {
+        const response = await axios.get('https://stock-prediction-backend-4vxn.onrender.com/api/stocks/fetchallstocks', {
           headers: {
             'Content-Type': 'application/json',
             'auth-token': authToken
@@ -228,7 +228,7 @@ export default function SellStockCompoNew() {
     if (authToken && stock.id) {
       try {
         const response = await axios.put(
-          `http://localhost:5000/api/stocks/updatestock/${stock.id}`,
+          `https://stock-prediction-backend-4vxn.onrender.com/api/stocks/updatestock/${stock.id}`,
           {
             status: "S", // Always use "S" for selling, regardless of partial or full
             sellingPrice: currentPrice,

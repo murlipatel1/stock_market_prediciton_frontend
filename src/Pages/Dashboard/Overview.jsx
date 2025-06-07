@@ -6,7 +6,7 @@ import axios from "axios"
 const Overview = () => {
   // useEffect(() => {
   //   axios
-  //     .get("http://localhost:5000/api/get/getquote", {
+  //     .get("https://stock-prediction-backend-4vxn.onrender.com/api/get/getquote", {
   //       company: "AAPL",
   //     })
   //     .then((res) => {

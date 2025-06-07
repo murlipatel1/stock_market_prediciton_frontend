@@ -90,7 +90,7 @@ export default function BuyStocksCompo() {
     try {
       // Add stock to backend
       const response = await axios.post(
-        'http://localhost:5000/api/stocks/addstock',
+        'https://stock-prediction-backend-4vxn.onrender.com/api/stocks/addstock',
         {
           tickerSymbol: selectedOptions.name,
           stockName: selectedOptions.label,
