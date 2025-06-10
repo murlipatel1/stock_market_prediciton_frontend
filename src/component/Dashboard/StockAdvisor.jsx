@@ -243,8 +243,6 @@ const StockAdvisor = () => {
                 className="w-full border rounded p-2"
               >
                 <option value="auto">Automatic (Best Available)</option>
-                <option value="svr">Machine Learning Model</option>
-                <option value="technical">Technical Analysis</option>
               </select>
             </div>
             
