@@ -118,18 +118,17 @@ const SignUp = () => {
                         <div className="flex items-center justify-between pb-6"></div>
                       </form>
                     </div>
-                  </div>
-                  <div className="flex items-center rounded-b-lg bg-gradient-to-r from-[#F9790E] to-[#ff7300]  lg:w-6/12 lg:rounded-r-lg lg:rounded-bl-none">
+                  </div>                  <div className="flex items-center rounded-b-lg bg-gradient-to-r from-[#F9790E] to-[#ff7300]  lg:w-6/12 lg:rounded-r-lg lg:rounded-bl-none">
                     <div className="px-4 py-6 text-white md:mx-6 md:p-12">
                       <h4 className="mb-6 text-xl font-semibold">
-                        We are more than just a company
+                        Turn Your Dreams Into Profits
                       </h4>
                       <p className="text-sm">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex
-                        ea commodo consequat.
+                        Join thousands of smart investors who are already building their wealth with StockHive! 
+                        Our AI-powered platform helps you make informed decisions, predict market trends, and 
+                        maximize your returns. Whether you're a beginner or experienced trader, start generating 
+                        your own profits today. Your portfolio is waiting - and so are your future gains. 
+                        Don't just watch others succeed, become the success story yourself!
                       </p>
                     </div>
                   </div>

@@ -108,16 +108,15 @@ const Login = () => {
                     </div>
                   </div>
                   <div className="flex items-center rounded-b-lg bg-gradient-to-r from-[#F9790E] to-[#ff7300] lg:w-6/12 lg:rounded-r-lg lg:rounded-bl-none">
-                    <div className="px-4 py-6 text-white md:mx-6 md:p-12">
-                      <h4 className="mb-6 text-xl font-semibold">
-                        We are more than just a company
+                    <div className="px-4 py-6 text-white md:mx-6 md:p-12">                      <h4 className="mb-6 text-xl font-semibold">
+                        Start Your Investment Journey Today
                       </h4>
                       <p className="text-sm">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis
-                        nostrud exercitation ullamco laboris nisi ut aliquip ex
-                        ea commodo consequat.
+                        "The stock market is filled with individuals who know the price of everything, 
+                        but the value of nothing. Don't wait for the perfect moment – time in the market 
+                        beats timing the market. Every expert was once a beginner, and every successful 
+                        investor started with their first purchase. Your financial freedom begins with 
+                        your first step into the world of investing."
                       </p>
                     </div>
                   </div>
